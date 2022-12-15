@@ -1,0 +1,56 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: roboto;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+.work
+{
+    text-align: center;
+}
+
+.work_container
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    margin-top: 20px;
+}
+
+.work_img
+{
+    margin: 10px;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.work_img img
+{
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.work_img img:hover
+{
+    transform: scale(1.4);
+}
+
+.bd-grid
+{
+    padding-top: 90px;
+}
+
+.work-back
+{
+    background: linear-gradient(rgba(1,0,8,0.5), rgba(7,0,0,0.5)),url(mirnd.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 80vh;
+}
